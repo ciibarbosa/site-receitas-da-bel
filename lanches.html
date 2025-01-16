@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanches</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Receitas da Bel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#lanches">Lanches</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#almoco">Almoço</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobremesas">Sobremesas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Categoria: Lanches -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Lanches</h1>
+            <div class="row">
+                <!-- Receita 1 -->
+                <div class="col-md-4">
+                    <div class="card recipe">
+                        <img src="img/sanduiche-natural.jpg" class="card-img-top" alt="Sanduíche Natural">
+                        <div class="card-body">
+                            <h5 class="card-title">Sanduíche Natural</h5>
+                            <p class="card-text">Um sanduíche saudável e prático para o dia a dia.</p>
+                            <a href="receitas/sanduiche-natural.html" class="btn btn-primary">Ver Receita</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Receita 2 -->
+                <div class="col-md-4">
+                    <div class="card recipe">
+                        <img src="img/pao-de-queijo.jpg" class="card-img-top" alt="Pão de Queijo">
+                        <div class="card-body">
+                            <h5 class="card-title">Pão de Queijo</h5>
+                            <p class="card-text">Tradicional receita mineira para todas as horas.</p>
+                            <a href="receitas/pao-de-queijo.html" class="btn btn-primary">Ver Receita</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Receita 3 -->
+                <div class="col-md-4">
+                    <div class="card recipe">
+                        <img src="img/mini-pizza.jpg" class="card-img-top" alt="Mini Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Mini Pizza</h5>
+                            <p class="card-text">Perfeita para um lanche rápido e delicioso.</p>
+                            <a href="receitas/mini-pizza.html" class="btn btn-primary">Ver Receita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Receitas da Bel. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<style>/* Estilo padrão para as imagens */
+    .card img {
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    
+    /* Efeito ao passar o mouse */
+    .card img:hover {
+      transform: scale(1.1); /* Zoom na imagem */
+      filter: brightness(80%); /* Escurece a imagem */
+    }
+    </style>
