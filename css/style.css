@@ -1,5 +1,10 @@
 .navbar {
-  background-color: rgb(230, 158, 237);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Mantém acima dos outros elementos */
+  background-color: #E9F5DB;
+  color: #333; /* Mantém um contraste agradável */
   text: white;
   text-align: center;
   padding-top: 2%;
@@ -9,6 +14,7 @@
   border-bottom-left-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
+
 
 .options {
   border-radius: 10px;
@@ -31,25 +37,18 @@
 
 /* Fonte padrão do site */
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #333; /* Cor de texto padrão */
-  line-height: 1.6; /* Espaçamento entre linhas */
-  background-color: #f9f9f9; /* Fundo suave */
-  margin: 0;
-  padding: 0;
+  background-color: #E9F5DB;
+  color: #333333; /* Texto principal em cinza escuro */
 }
 
-/* Títulos */
 h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  color: #d849f1; /* Cor mais escura para contraste */
+  color: #3A5A40; /* Títulos em verde escuro */
 }
 
-/* Parágrafos e texto geral */
+a {
+  color: #E67E22; /* Links em laranja suave */
+}
+
 p {
-  font-size: 1rem; /* Tamanho confortável */
-  color: #ffffff; /* Cinza suave */
+  color: #705D4D; /* Texto secundário em marrom claro */
 }
-
-
