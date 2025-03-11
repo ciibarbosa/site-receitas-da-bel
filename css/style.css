@@ -5,7 +5,6 @@
   z-index: 1000; /* Mantém acima dos outros elementos */
   background-color: #E9F5DB;
   color: #333; /* Mantém um contraste agradável */
-  text: white;
   text-align: center;
   padding-top: 2%;
   display: flex;
